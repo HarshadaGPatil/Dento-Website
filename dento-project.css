@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul {
+  height: 80px;
+}
+input[type=text], input[type=number] {
+width: 40%;
+padding: 15px;
+margin: 5px 0 0px 80px;
+display: inline-block;
+border: none;
+background-color: black;
+height: 50px;
+color: #ffffff;
+}
+
+select{
+width: 40%;
+padding: 15px;
+margin: 5px 0 0px 80px;
+display: inline-block;
+border: none;
+background-color: black;
+height: 50px;
+color: #ffffff;
+}
+textarea{
+width:60%;
+padding: 15px;
+margin: 5px 0 0px 100px;
+display: inline-block;
+border: none;
+background-color: black;
+height: 150px;
+color: #ffffff;
+}
+.single-dentist-area {
+position: relative;
+z-index: 1;
+background-color: #f4f4f4;
+-webkit-transition-duration: 500ms;
+-o-transition-duration: 500ms;
+transition-duration: 500ms;
+}
+.single-dentist-area .dentist-content .dentist-social-info {
+text-align: center;
+margin-bottom: 30px;
+opacity: 0;
+visibility: hidden;
+-webkit-transition-duration: 500ms;
+-o-transition-duration: 500ms;
+transition-duration: 500ms;
+}
+.single-dentist-area .dentist-content .dentist-social-info a {
+display: inline-block;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-color: #ffffff;
+box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.15);
+font-size: 14px;
+text-align: center;
+line-height: 40px;
+color: #00aeef;
+margin: 0 7px;
+}
+.single-dentist-area .dentist-content .dentist-info {
+width: 100%;
+padding: 10px 15px;
+text-align: center;
+}
+.bg-gradient-overlay {
+position: relative;
+z-index: 1;
+}
+.bg-gradient-overlay::after {
+position: absolute;
+content: "";
+height: 100%;
+width: 100%;
+top: 0;
+left: 0;
+z-index: -1;
+background: #2c455d;
+background: -webkit-linear-gradient(to right, #2c455d, #00012c);
+background: linear-gradient(to right, #2c455d, #00012c);
+opacity: 0.85;
+}
+.bg-image{
+    background-image: url('https://preview.colorlib.com/theme/dento/img/bg-img/3.jpg');
+    height: 500px;
+     background-repeat: no-repeat;
+
+}
+.background-blur{
+    background-color: hsla(0, 0%, 0%, 0.8); 
+    height: 500px;
+}
+
+.about-bg-img{
+    background-image: url('https://preview.colorlib.com/theme/dento/img/bg-img/12.jpg');
+    height: 300px;
+}
+
+.about-bg-color{
+    background-color: hsla(0, 0%, 0%, 0.8);
+    height: 300px;
+}
+@media screen and (max-width:767px) {
+.single-dentist-area img{
+     width: 400px;
+}
+
+
+.bg-image{
+    height: 1550px;
+
+}
+.background-blur{
+    height: 1550px;
+}
+
+.main-footer-content{
+    padding: 0px 30px;
+    margin: 20px 0px;
+}
+.quick-link{
+    padding: 100px 0px !important;
+}
+}
+
+.bg-img{
+    background-image: url('https://preview.colorlib.com/theme/dento/img/bg-img/13.jpg');
+    height: 700px;
+}
+
+@media screen and (max-width:767px) {
+
+    .table-img{
+        width: 380px !important;
+    }
+    
+    .pracing-table{
+        margin-top: 450px !important ;
+    }
+    
+}
+@media screen and (max-width:767px){
+   
+}
+
+    
+
+
+
